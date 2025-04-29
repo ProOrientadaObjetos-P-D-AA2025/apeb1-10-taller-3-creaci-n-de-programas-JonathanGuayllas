@@ -12,13 +12,13 @@ class Terreno:
 
     # Sets
     def setAncho(self):
-        self.ancho = random.uniform(0.0, 100.0)  # valor aleatorio entre 0 y 100 
+        self.ancho = round(random.uniform(0.0, 100.0),2)  # valor aleatorio entre 0 y 100 
 
     def setLargo(self):
-        self.largo = random.uniform(0.0, 100.0)  # valor aleatorio entre 0 y 100 
+        self.largo = round(random.uniform(0.0, 100.0),2)   # valor aleatorio entre 0 y 100 
 
     def setValorMeC(self):
-        self.valorMeC = random.uniform(0.0, 1000.0)  # valor aleatorio entre 0 y 1000
+        self.valorMeC = round(random.uniform(0.0, 1000.0),2)  # valor aleatorio entre 0 y 1000
 
     # Gets
     def getAncho(self):
